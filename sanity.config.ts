@@ -21,7 +21,7 @@ console.log(projectId);
 
 export default defineConfig({
   name: "default",
-  title: "Stablo Template",
+  title: "Nature Plastics",
   basePath: "/studio",
   projectId: projectId,
   dataset: dataset,

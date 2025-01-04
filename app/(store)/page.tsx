@@ -13,7 +13,7 @@ export const metadata = {
 } satisfies Metadata;
 
 export default async function Home() {
-	const products = await Commerce.productBrowse({ filter: { category: "dining" } });
+	const products = await Commerce.productBrowse({ first: 8 });
 	const t = await getTranslations("/");
 
 	return (
