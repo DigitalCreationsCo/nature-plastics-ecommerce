@@ -20,10 +20,10 @@ export default function SiteNavbar(props) {
       label: "Home",
       href: "/"
     },
-    {
-      label: "About",
-      href: "/about"
-    },
+    // {
+    //   label: "About",
+    //   href: "/about"
+    // },
     {
       label: "Contact Us",
       href: "/contact"
@@ -33,16 +33,18 @@ export default function SiteNavbar(props) {
   const mobilemenu = [...leftmenu, ...rightmenu];
 
   return (
-    <Container large>
-      <nav>
-        <Disclosure>
+    <>
+      <YnsLink href="/" className='h-0 sticky top-0 left-1/2 border mx-auto w-full max-w-7xl z-50 border'>
+        <SeoH1 className="-mt-0.5 whitespace-nowrap px-8 py-5 text-xl font-bold text-[#5c514b]">NaturePlastics.com</SeoH1>
+      </YnsLink>
+      <Container large>
+        <nav>
+          <Disclosure>
           {({ open }) => (
             <>
               <div className="flex flex-wrap justify-between md:flex-nowrap md:gap-10">
                 <div className="flex w-full items-center justify-between md:w-auto">
-                <YnsLink href="/">
-                  <SeoH1 className="-mt-0.5 whitespace-nowrap text-xl font-bold">NaturePlastics.com</SeoH1>
-                </YnsLink>
+                
                   <Disclosure.Button
                     aria-label="Toggle Menu"
                     className="ml-auto rounded-md px-2 py-1 text-gray-500 focus:text-blue-500 focus:outline-none dark:text-gray-300 md:hidden ">
@@ -125,6 +127,7 @@ export default function SiteNavbar(props) {
         </Disclosure>
       </nav>
     </Container>
+    </>
   );
 }
 
