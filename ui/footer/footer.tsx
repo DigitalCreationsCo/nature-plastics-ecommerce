@@ -55,7 +55,7 @@ export async function Footer() {
 			</div>
 			<div className="container mt-8 flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-neutral-500 md:flex-row">
 				<div>
-					<p>© 2024 Nature Plastics</p>
+					<p>© 2024 PlantBasedBrands.com</p>
 					<p>Eco-friendly essentials for sustainable living and a greener home.</p>
 				</div>
 				<div className="flex items-center gap-4">
@@ -63,8 +63,8 @@ export async function Footer() {
 						className="inline-flex items-center gap-1 transition-colors hover:text-neutral-700"
 						href="/"
 					>
-						Nature Plastics
-						<span className="sr-only">Nature Plastics</span>
+						PlantBasedBrands.com
+						<span className="sr-only">PlantBasedBrands.com</span>
 					</YnsLink>
 				</div>
 			</div>

@@ -51,11 +51,11 @@ export const accountToWebsiteJsonLd = ({
 	return {
 		"@context": "https://schema.org",
 		"@type": "WebSite",
-		name: account?.business_profile?.name ?? "natureplastics.com",
-		url: account?.business_profile?.url ?? "https://natureplastics.com",
+		name: account?.business_profile?.name ?? "PlantBasedBrands.com",
+		url: account?.business_profile?.url ?? "https://www.plantbasedbrands.com",
 		mainEntityOfPage: {
 			"@type": "WebPage",
-			url: account?.business_profile?.url ?? "https://natureplastics.com",
+			url: account?.business_profile?.url ?? "https://www.plantbasedbrands.com",
 		},
 		...(logoUrl && {
 			image: {
@@ -65,8 +65,8 @@ export const accountToWebsiteJsonLd = ({
 		}),
 		publisher: {
 			"@type": "Organization",
-			name: account?.business_profile?.name ?? "RPK & Nature Plastics",
-			url: account?.business_profile?.url ?? "https://natureplastics.com",
+			name: account?.business_profile?.name ?? "RPK & PlantBasedBrands.com",
+			url: account?.business_profile?.url ?? "https://www.plantbasedbrands.com",
 		},
 	};
 };

@@ -35,7 +35,7 @@ export default function SiteNavbar(props) {
   return (
     <>
       <YnsLink href="/" className='h-0 sticky top-0 mx-auto w-full max-w-7xl z-50 border'>
-        <SeoH1 className="-mt-0.5 whitespace-nowrap px-8 py-5 text-xl font-bold text-[#5c514b]">NaturePlastics.com</SeoH1>
+        <SeoH1 className="-mt-0.5 whitespace-nowrap px-8 py-5 text-xl font-bold text-[#5c514b]">PlantBasedBrands.com</SeoH1>
       </YnsLink>
       <Container large>
         <nav>

@@ -16,7 +16,7 @@ export const config = {
 
 	contact: {
 		email: "natureplastics01@gmail.com",
-		phone: "+1 (570) 790-1185",
+		phone: "+1 (570) 790 1185",
 		address: "San Francisco, CA 94107",
 	},
 };

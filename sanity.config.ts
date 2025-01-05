@@ -20,7 +20,7 @@ console.log(projectId);
 
 export default defineConfig({
   name: "default",
-  title: "Nature Plastics",
+  title: "PlantBasedBrands.com",
   basePath: "/studio",
   projectId: projectId,
   dataset: dataset,

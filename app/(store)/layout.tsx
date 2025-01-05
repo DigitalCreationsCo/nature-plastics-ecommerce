@@ -18,14 +18,14 @@ async function sharedMetaData(params) {
 	  title: {
 		default:
 		  settings?.title ||
-		  "Nature Plastics | Eco-friendly essentials for sustainable living and a greener home.",
-		template: "%s | Nature Plastics"
+		  "PlantBasedBrands.com | Eco-friendly essentials for sustainable living and a greener home.",
+		template: "%s | PlantBasedBrands.com"
 	  },
 	  description:
 		settings?.description ||
 		"Shop eco-friendly, compostable and natural goods for your home. Our products combine style, durability, and sustainability to reduce waste and promote a healthier planet. ",
-	  keywords: ["Eco-friendly", "Compostable", "Natural", "Sustainable", "Home", "Plastics"],
-	  authors: [{ name: "RPK & Nature Plastics" }],
+	  keywords: ["Eco-friendly", "Compostable", "Natural", "Sustainable", "Home", "Goods", "Plant-based", "Plastics"],
+	  authors: [{ name: "RPK & PlantBasedBrands.com" }],
 	  canonical: settings?.url,
 	  openGraph: {
 		images: [
@@ -39,7 +39,7 @@ async function sharedMetaData(params) {
 		]
 	  },
 	  twitter: {
-		title: settings?.title || "Nature Plastics | Eco-friendly Home Goods",
+		title: settings?.title || "PlantBasedBrands.com | Eco-friendly Home Goods",
 		card: "summary_large_image"
 	  },
 	  robots: {

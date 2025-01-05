@@ -55,7 +55,7 @@ export default function Contact({ settings }) {
       <div className="grid my-10 md:grid-cols-2">
         <div className="my-10">
           <h2 className="text-2xl font-semibold dark:text-white">
-            Contact Nature Plastics
+            Contact Plant Based Brands
           </h2>
           <p className="max-w-sm mt-5">
             Have something to say? We are here to help. Send us a message or email us.
